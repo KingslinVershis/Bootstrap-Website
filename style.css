@@ -1,0 +1,93 @@
+body{
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+li{
+     padding: 5px;
+     margin-right: 10px;
+}
+li a{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+li a:hover{
+    border-bottom: 2px solid cyan;
+    transition: 0.1s ease-in-out ;
+}
+
+.name{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s ease;
+}
+.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+.img-fluid{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 1s ease;
+}
+.reveal{
+opacity: 1;
+transform: translateX(0);
+}
+.row .name{
+    text-align: center;
+    padding: 5px 0px;
+    margin: 18px 0px;
+}
+h1{
+    letter-spacing: 15px;
+    color: black;
+}
+h1,h2,h3{
+    color:black ;
+}
+.bg1{
+  background-color: #F5C6EC;
+}
+.bg2{
+    background-color: #B3FFAE;
+}
+.bg3{
+    background-color: #FFDADA;
+}
+.img-fluid{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;    
+
+}
+
+.col-lg-3{
+    overflow: hidden;
+}
+footer i{
+    padding: 50px 15px;
+    margin-left: 90px;
+    margin-top: 30px;
+    transition-property: color;
+    transition-duration: 0.7s;
+    transition-timing-function:ease;
+    color:black;
+    cursor: pointer;
+}
+footer i:hover{
+    color: white;
+    transition: ease-in;
+}
+footer .copy{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+footer .copy span{
+    color:#ff3838;
+}
